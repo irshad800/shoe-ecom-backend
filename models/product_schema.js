@@ -18,10 +18,14 @@ const product_schema=new mongoose.Schema({
         type: String,
         required: true,
     },
+<<<<<<< HEAD
     size:{
         type: String,
         required: true,
     },
+=======
+ 
+>>>>>>> 0781ad9 (second last)
 
 })
 const productDB=mongoose.model("product",product_schema)
